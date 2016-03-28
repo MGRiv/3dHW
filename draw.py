@@ -34,6 +34,7 @@ def generate_sphere( points, cx, cy, cz, r, step ):
             add_point(points,x,y,z)
             t += step
         p += step
+        t = 0
 
 def add_torus( points, cx, cy, cz, r0, r1, step ):
     generate_torus( points, cx, cy, cz, r0, r1, step )
@@ -49,6 +50,7 @@ def generate_torus( points, cx, cy, cz, r0, r1, step ):
             add_point(points,x,y,z)
             t += step
         p += step
+        t = 0
 
 
 def add_circle( points, cx, cy, cz, r, step ):
